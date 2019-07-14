@@ -12,10 +12,18 @@ Ex:  hello(null) => null
 
 */
 
-function hello() {
+function hello( name) {
   // WRITE YOUR CODE UNDER THIS LINE  
+  
+
+  if (name ==="") {
+    return null;
+  
+}
 
 }
+console.log("hello"+hello(""));
+console.log("hello"+hello("doha"));
 
 
 /* Q2:
@@ -32,11 +40,13 @@ Ex: calculateTax(100,0.15)
 => "You got 100 JD from sales, you should pay 15 JD for tax and you will have 85 JD as net sales."
 */
 
-function calculateTax() {
+function calculateTax(num1,num3) {
   // WRITE YOUR CODE UNDER THIS LINE 
-
+ tax= num1 * num3;
+ tax1= tax - num1;
+return "You got", num1 ,"from sales" , "you should pay"   , tax ,   " for tax and you will have" ,tax1, "JD", "as net sales"   ;
 }
-
+calculateTax(500,0,16)
 
 /* Q3:
 Using while
@@ -52,10 +62,20 @@ Ex: repeatChar("a",2); => "a, A"
 Ex: repeatChar("C",5); => "C, c, C, c, C"
 */
 
-function repeatChar() {
-  // WRITE YOUR CODE UNDER THIS LINE         
+function repeatChar(str,num) {
+  // WRITE YOUR CODE UNDER THIS LINE
 
-}
+
+    while (num > 0 && num%2===0) {
+
+      
+       return capitalize ("str")
+    }
+    
+    return  toLowerCase("str")
+    console.log(repeatChar("t", 4)
+  
+
 
 
 /* Q4:
